@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3275" started-at="2020-09-08T08:52:20Z" finished-at="2020-09-08T08:52:23Z">
+    <groups>
+      <group name="user_get">
+        <method signature="CountryTests.getUserTest()[pri:0, instance:com.qa.tests.CountryTests@57fffcd7]" name="getUserTest" class="com.qa.tests.CountryTests"/>
+      </group> <!-- user_get -->
+      <group name="user_post">
+        <method signature="CountryTests.loginTest()[pri:0, instance:com.qa.tests.CountryTests@57fffcd7]" name="loginTest" class="com.qa.tests.CountryTests"/>
+      </group> <!-- user_post -->
+    </groups>
+    <test name="Default test" duration-ms="3275" started-at="2020-09-08T08:52:20Z" finished-at="2020-09-08T08:52:23Z">
+      <class name="com.qa.tests.CountryTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.CountryTests@57fffcd7]" name="setUp" is-config="true" duration-ms="7" started-at="2020-09-08T16:52:20Z" finished-at="2020-09-08T16:52:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.qa.tests.CountryTests@57fffcd7]" name="loginTest" duration-ms="2735" started-at="2020-09-08T16:52:20Z" finished-at="2020-09-08T16:52:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="getUserTest()[pri:0, instance:com.qa.tests.CountryTests@57fffcd7]" name="getUserTest" duration-ms="516" depends-on-groups="user_post" started-at="2020-09-08T16:52:22Z" finished-at="2020-09-08T16:52:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserTest -->
+      </class> <!-- com.qa.tests.CountryTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
